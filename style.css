@@ -282,6 +282,7 @@ span {
 	}
 	.create-content{
 		padding: 150px 0 0;
+		width: 750px;
 	}
 	.create-text p{
 		font-size: 14px;
@@ -295,5 +296,10 @@ span {
 	}
 	.about-text p{
 		font-size: 14px;
+	}
+}
+@media (max-width: 767px) {
+	.menu{
+		display: none;
 	}
 }
