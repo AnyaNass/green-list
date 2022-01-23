@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {font-family: "GT Super Display";
+	src: url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.eot"), 
+	url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.woff") format("woff"), 
+	url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.ttf") format("truetype"),
+	url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.svg Super Display Bold") format("svg");
+	font-weight: normal;
+	font-style: normal;}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	font-family: "Roboto";
+}
+.container{
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+header{
+	background-color: #023A15;
+	padding: 15px 0 80px;
+}
+.header-top{
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	width: 160px;
+	height: 40px;
+}
+.menu{
+	display: flex;
+	list-style-type: none;
+	padding: 15px 0 0;
+}
+.menu li{
+	margin: 0 0 0 20px;
+	padding: 0;
+	position: relative;
+}
+.menu li a{
+text-decoration: none;
+color: #fff;
+font-weight: 500;
+font-size: 16px;
+
+}
+.menu li a:hover{
+	text-decoration: underline;
+}
+.submenu{
+	list-style-type: none;
+	background-color: hsl(0, 0%, 100%, 0.3);
+	position: absolute;
+   border: 1px solid #fff;
+	left: -20%;
+	display: none;
+}
+.submenu .submenu{
+	position: absolute;
+	left: 100%;
+	top: -10%;	
+}
+.submenu li{
+	margin: 0;
+	padding: 5px;
+}
+li:hover > .submenu{
+	display: block;
+}
+
+.title{
+	display: flex;
+	justify-content: space-between;
+	margin: 80px 0 0 ;
+}
+.titel-text{
+	width: 50%;
+	text-align: left;
+}
+h2{
+	font-family: "GT Super Display";
+	font-weight: 900;
+font-size: 109px;
+color: #fff;
+}
+.title-btn{
+   display: inline-block;
+	text-decoration: none;
+	color: #023A15;
+	font-size: 16px;
+	padding: 15px 10px 15px 48px;
+	background-color: #ffffff;
+	border-radius: 5px;
+   letter-spacing: 0.01em;
+	position: relative;
+}
+.title-btn:hover{
+	background-color: hsl(0, 0%, 100%, 0.5);
+}
+.title-btn::before{
+content: url("../greenlist/img/block_title/Group.png");
+position: absolute;
+left: 10%;
+top: 25%;
+}
+.title-free{
+	margin: 30px 0 0;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 0;
+}
+.titel-pictures{
+	background-image: url("../greenlist/img/block_title/Vector.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.img-coffee{
+	margin: 0 250px 0 0;
+	position: relative;
+}
+.img-coffee::before{
+	content: url("../greenlist/img/block_title/girl.jpg");
+	position: absolute;
+	left: -10%;
+	top: -10%;
+}
+.img-salad{
+	margin: -25px 0 0 250px;
+	position: relative;
+}
+.img-salad::before{
+	content: url("../greenlist/img/block_title/boy.jpg");
+	position: absolute;
+	left: -10%;
+	top: -5%;
+}
+.description{
+	margin: 128px 0 0;
+	padding: 0;
+}
+.description-list{
+	display: flex;
+	justify-content: space-between;
+}
+.description-text{
+	width: 50%;
+text-align: left;
+}
+h3{
+	font-family: "GT Super Display";
+	font-weight: 900;
+	font-size: 66px;
+	margin: 0;
+	padding: 0;
+}
+.description-about{
+	margin: 35px 0 0;
+	font-size: 18px;
+	line-height: 1.5em;
+	width: 460px;
+}
+.description-man{
+	margin: 127px 0 0;
+	width: 557px;
+}
+.description-girl{
+	height: 531px;
+	padding: 217px 0 0;
+}
+.create{
+	background-color: #FFE6E2;
+	text-align: center;
+	margin: -100px 0 0;
+}
+.create-content{
+	width: 811px;
+	margin: 0 auto;
+	padding: 200px 0 0;
+}
+.create-text{
+	margin: 45px 0 0;
+}
+.create-text p{
+	font-size: 18px;
+	line-height: 1.5em;
+	width: 578px;
+	margin: 0 auto;
+}
+.create-img{
+	margin: 80px 0 0;
+}
+.about{
+	background-color: #ffffff;
+	margin: -130px 0 0;
+	padding: 150px 0 0;
+}
+.about-list {
+	display: flex;
+	justify-content: space-between;
+}
+.about_item {
+	width: 50%;
+}
+.about-text{
+	width: 380px;
+	padding: 120px 0 0;
+}
+.about-text p{
+	margin: 20px 0 0;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.celebrate {
+	order: 1;
+}
+
+span {
+	color: #f09c96;
+}
+.footer{
+	background-color: #023A15;
+	padding: 128px 0 0;
+}
+.footer-content{
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+.footer-content .title-btn{
+	margin: 40px 0 0;
+}
+.footer-copyright{
+	margin: 130px 0 0;
+	padding: 30px 0;
+	text-align: center;
+	color: #ffffff;
+}
