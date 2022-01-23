@@ -109,7 +109,7 @@ color: #fff;
 	background-color: hsl(0, 0%, 100%, 0.5);
 }
 .title-btn::before{
-content: url("../greenlist/img/block_title/Group.png");
+content: url("img/block_title/Group.png");
 position: absolute;
 left: 10%;
 top: 25%;
@@ -121,7 +121,7 @@ top: 25%;
 	padding: 0;
 }
 .titel-pictures{
-	background-image: url("../greenlist/img/block_title/Vector.png");
+	background-image: url("../img/block_title/Vector.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -131,7 +131,7 @@ top: 25%;
 	position: relative;
 }
 .img-coffee::before{
-	content: url("../greenlist/img/block_title/girl.jpg");
+	content: url("img/block_title/girl.jpg");
 	position: absolute;
 	left: -10%;
 	top: -10%;
@@ -141,7 +141,7 @@ top: 25%;
 	position: relative;
 }
 .img-salad::before{
-	content: url("../greenlist/img/block_title/boy.jpg");
+	content: url("img/block_title/boy.jpg");
 	position: absolute;
 	left: -10%;
 	top: -5%;
@@ -246,4 +246,54 @@ span {
 	padding: 30px 0;
 	text-align: center;
 	color: #ffffff;
+}
+@media (max-width: 992px) {
+	.header{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	li:focus > .submenu{
+		display: none;
+	}
+	a:focus > .submenu{
+		display: block;
+	}
+	h2{
+		font-size: 70px;
+	}
+	.title-btn{
+		margin-top: 15px;
+	}
+	.description{
+		margin-top: 50px;
+		padding: 0 15px;
+	}
+	h3{
+		font-size: 45px;
+	}
+	.description-about{
+		font-size: 14px;
+	}
+	.description-man{
+		margin-top: 50px;
+	}
+	.description-girl{
+		padding: 100px 0 0;
+	}
+	.create-content{
+		padding: 150px 0 0;
+	}
+	.create-text p{
+		font-size: 14px;
+	}
+	.create-img{
+		margin: 50px 0 0;
+	}
+	.about{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.about-text p{
+		font-size: 14px;
+	}
 }
