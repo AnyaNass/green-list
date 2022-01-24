@@ -400,3 +400,46 @@ span {
 		height: 400px;
 	}
 }
+@media (min-width: 375px) {
+	.titel-pictures{
+		display: none;
+	}
+	.title{
+		display: block;
+	}
+	.titel-text{
+		text-align: center;
+		width: 100%;
+	}
+	h2{
+		font-size: 50px;
+	}
+	.description-list{
+		display: block;
+	}
+	.description-text{
+		width: 100%;
+		text-align: center;
+	}
+	h3{
+		font-size: 35px;
+	}
+	.description-girl{
+		display: none;
+	}
+	.create-content{
+		width: 100%;
+	}
+	.create-content p{
+		width: 90%;
+	}
+	.about-list{
+		display: block;
+	}
+	.about-text {
+width: 100%;
+	}
+	.footer-copyright{
+		margin: 70px 0 0;
+	}
+}
