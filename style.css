@@ -435,6 +435,12 @@ span {
 		text-align: center;
 		width: 100%;
 	}
+	.about-list{
+		display: block;
+	}
+	.about-text {
+width: 100%;
+	}
 }
 @media (max-width: 375px) {
 	
@@ -459,12 +465,6 @@ span {
 	}
 	.create-content p{
 		width: 90%;
-	}
-	.about-list{
-		display: block;
-	}
-	.about-text {
-width: 100%;
 	}
 	.footer-copyright{
 		margin: 70px 0 0;
