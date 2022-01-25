@@ -36,8 +36,24 @@ header{
 	position: relative;
 }
 .logo{
-	width: 160px;
-	height: 40px;
+	display: flex;
+	width: 200px;
+}
+.logo-icon{
+	width: 31px;
+	height: 34px;
+	background-color: #F09C96;
+   border-radius: 50%;
+	margin: 0 10px 0 0;
+}
+.logo-icon img{
+	object-fit: none;
+}
+.logo-name{
+	width: 95px;
+}
+.logo-name img{
+	object-fit: contain;
 }
 .menu{
 	display: flex;
