@@ -58,7 +58,7 @@ header{
 .menu{
 	display: flex;
 	list-style-type: none;
-	padding: 15px 0 0;
+	padding: 5px 0 0;
 }
 .menu li{
 	margin: 0 0 0 20px;
@@ -264,11 +264,13 @@ span {
 	text-align: center;
 	color: #ffffff;
 }
-@media (max-width: 992px) {
+@media (max-width: 1316px) {
 	.header{
 		padding-left: 15px;
 		padding-right: 15px;
-	}
+	} 
+}
+@media (max-width: 992px) {
 	li:focus > .submenu{
 		display: none;
 	}
