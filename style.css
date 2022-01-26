@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @font-face {font-family: "GT Super Display";
-	src: url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.eot"), 
-	url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.woff") format("woff"), 
-	url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.ttf") format("truetype"),
-	url("../hw6/font/6c4202419245188b23a6a2346e9b3a08.svg Super Display Bold") format("svg");
+	src: url("font/6c4202419245188b23a6a2346e9b3a08.eot"), 
+	url("font/6c4202419245188b23a6a2346e9b3a08.woff") format("woff"), 
+	url("font/6c4202419245188b23a6a2346e9b3a08.ttf") format("truetype"),
+	url("font/6c4202419245188b23a6a2346e9b3a08.svg Super Display Bold") format("svg");
 	font-weight: normal;
 	font-style: normal;}
 * {
@@ -461,11 +461,7 @@ span {
 width: 100%;
 	}
 }
-@media (max-width: 375px) {
-	
-	h2{
-		font-size: 50px;
-	}
+@media (max-width: 555px){
 	.description-list{
 		display: block;
 	}
@@ -473,14 +469,21 @@ width: 100%;
 		width: 100%;
 		text-align: center;
 	}
-	h3{
-		font-size: 35px;
-	}
 	.description-girl{
 		display: none;
 	}
 	.create-content{
-		width: 100%;
+		width: 90%;
+	}
+}
+
+@media (max-width: 375px) {
+	
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 35px;
 	}
 	.create-content p{
 		width: 90%;
