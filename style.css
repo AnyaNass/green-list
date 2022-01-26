@@ -110,7 +110,7 @@ li:hover > .submenu{
 h2{
 	font-family: "GT Super Display";
 	font-weight: 900;
-font-size: 109px;
+font-size: 100px;
 color: #fff;
 }
 .title-btn{
@@ -123,6 +123,7 @@ color: #fff;
 	border-radius: 5px;
    letter-spacing: 0.01em;
 	position: relative;
+	margin: 40px 0 0;
 }
 .title-btn:hover{
 	background-color: hsl(0, 0%, 100%, 0.5);
