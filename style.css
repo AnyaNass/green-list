@@ -472,6 +472,13 @@ span {
 		width: 90%;
 	}
 }
+@media (max-width: 420px){
+	h2{
+		font-size: 60px;
+	}
+
+}
+
 @media (max-width: 375px) {
 	h2{
 		font-size: 50px;
