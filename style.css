@@ -123,6 +123,7 @@ color: #fff;
    letter-spacing: 0.01em;
 	position: relative;
 	margin: 40px 0 0;
+	transition: all 0.3s linear;
 }
 .title-btn:hover{
 	background-color: hsl(0, 0%, 100%, 0.5);
@@ -226,6 +227,7 @@ h3{
 .about-list {
 	display: flex;
 	justify-content: space-between;
+	padding: 0 15px;
 }
 .about_item {
 	width: 50%;
@@ -276,7 +278,7 @@ span {
 		display: block;
 	}
 	h2{
-		font-size: 70px;
+		font-size: 60px;
 	}
 	.title-btn{
 		margin-top: 15px;
@@ -309,6 +311,9 @@ span {
 	.about{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.about-text{
+		padding: 120px 0 0;
 	}
 	.about-text p{
 		font-size: 14px;
@@ -422,6 +427,9 @@ span {
 	 .titel-text{
 		 margin: 0 30px 0 0;
 	 }
+	 .title-btn:active{
+		background-color: #fff;
+	}
 	 .titel-pictures{
 		padding: 0 0 0 20px;
 	}
@@ -431,12 +439,12 @@ span {
   .img-salad{
 	  margin: -25px 0 0 90px;;
   }
-	.create-content{
-		width: 100%;
-	}
 	.description-girl{
 		margin: 0 0 0 20px;
 		height: 400px;
+	}
+	.about-text{
+		padding: 100px 0 0;
 	}
 }
 @media (max-width: 664px){
@@ -472,13 +480,6 @@ span {
 		width: 90%;
 	}
 }
-@media (max-width: 420px){
-	h2{
-		font-size: 60px;
-	}
-
-}
-
 @media (max-width: 375px) {
 	h2{
 		font-size: 50px;
